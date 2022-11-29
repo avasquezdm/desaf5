@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Adrián Vásquez</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <script src="https://kit.fontawesome.com/b24bd61975.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/name.png" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Acerca-de-mí">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Mis-logros">Logros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="display-1 fw-bold my-5">
+                    Un "joven" de <br> 32 años
+                </h1>
+                <p class="my-5">
+                    He aquí mi quinto desafío del curso Fuindamentos de Desarrollo Web, impartido por Desafío Latam. Consitió básicamente en poner en práctica lo aprendido sobre GitHub: fork, clon, init, add y commit. Esta página es el resultado de forkear, clonar y adaptar a mi historia. <br> / los siguientes botones están de adorno, aún no aprendemos JS...
+                </p>
+                <div class="mb-5 pb-5">
+                    <button class="btn btn-lg btn-outline-info text-light me-4">Logros</button>
+                    <button class="btn btn-lg btn-info text-light">Contacto</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="Acerca-de-mí" class="container text-center my-5">
+
+        <h2 class="display-3 fw-bold my-4">Acerca de mí</h2>
+
+        <p class="my-4">
+            Te invito a leer mis principales intereses y hobbies, para que te hagas una muy breve idea de quién soy.
+        </p>
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-bicycle fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Ciclista</h3>
+                <p class="my-3">
+                    Recibí mi primera bicicleta (que yo recuerde) a mis 7 años. Desde entonces, no me he bajado de ellas. A lo largo de mis 32 años, he tenido 6 bicicletas, cada una mejor que la anterior, y actualmente mantengo 2: rutera y mountain bike. Por supuesto que voy en bici a todos lados, desde el trabajo hasta (mi récord) Viña del Mar: 130 km.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-carrot fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Vegetariano</h3>
+                <p class="my-3">
+                    Mis padres me criaron como se cría a la mayoría de humanos: omnívoro. Disfruté de las carnes hasta mis 23 años, cuando, gracias a mi carrera profesional, tuve clases de ética ambiental (incluye ética animal) y empecé a cuestionar mis hábitos alimenticios. ¿Qué implica realmente comer animales? ¿Qué hay detrás de tu plato?
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-camera fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Fotógrafo aficionado</h3>
+                <p class="my-3">
+                    "Siempre" me ha gustado la fotografía. Siempre me han dicho que tomo buenas fotos, aunque sea con celulares. Mi primera cámara me la regaló mi hermana, una Canon SX-20, sencilla. Luego compré una similar, pero más moderna, con harto zoom (60x). Finalmente me compré mi primera y única reflex (Nikon D3400), con lente de kit y 50 mm para retratos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Mis-logros" class="my-5 p-5 bg-info">
+
+        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis logros</h2>
+
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/bici.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Cicletada "Lo Vásquez" hasta Viña</h5>
+                        <p class="card-text">
+                            ¿Me creerías si te digo que no me preparé? Al menos, no especialmente... ya que normalmente hago bicicleta. Mi record anterior era 80 km. Esta vez fueron unos 130 km, aunque el GPS me falló y dejó de grabar :( ...
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/veg.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">10 años de buena nutrición sustentable</h5>
+                        <p class="card-text">
+                            Yo era amante de los asados. Costillas de cerdo. Salmón cocinado por mi madre. Pollo asado del Santa Isabel, ojalá con papas fritas... pero, menos mal, mi carrera me abrió los ojos y logré evolucionar hacia una dieta más ética y sustentable, manteniendo buenos signos de salud...
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/eclipse.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Eclipse solar parcial, 2019</h5>
+                        <p class="card-text">
+                            Esta foto parece no ser la gran cosa, de hecho, es muy repetida, pero me encanta. La tomé con mi LUMIX DC-FZ80 con 60x de zoom, un trípode heredado de mi abuelo materno, unos "lentes para el eclipse" y bastante paciencia (ese quizás es el logro) ...
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="Contacto" class="container my-5">
+
+        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+
+        <p class="text-center my-4 d-none d-md-block">Además de todo lo que ya leíste... suelo estar todo el tiempo conectado, o al menos, bastante pendiente de mi teléfono, lo cual incluye estar "atenti" a mensajes :). Como plus, tengo un casi TOC de no poder dejar mensajes sin responder. Aprovecha!</p>
+
+        <form>
+            <div class="form-group mb-4">
+                <label class="mb-2">¿Cómo te llamas?</label>
+                <input class="form-control" placeholder="Nombre, apodo, o lo que quieras...">
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Ingresa tu e-mail</label>
+                <input class="form-control" placeholder="comoseatumail@correo.com" />
+            </div>
+
+
+            <div class="form-group">
+                <label class="mb-2">Ponte creativo!</label>
+                <textarea class="form-control" placeholder="Inspírate aquí..."></textarea>
+            </div>
+
+            <div class="my-3 text-end">
+                <button class="btn btn-info text-light">Enviar</button>
+            </div>
+        </form>
+
+    </section>
+    
+    <footer class="bg-dark text-center text-light p-4">
+        <p class="mb-0">Adrián Vásquez 2022. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
